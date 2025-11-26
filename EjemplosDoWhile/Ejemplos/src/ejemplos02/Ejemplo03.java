@@ -1,7 +1,8 @@
 /*
  Agregar lo correspondiente para que el proceso siguiente permita
  sumar las notas en cada iteración y presentar en la cadena final el
- valor de la suma.
+ valor de la suma. EL PROBLEMA ESTA BIEN RESULTO Y PRESENTA LA SUMA Y PRESENTA
+ LA SUMA DE LAS NOTAS QUE SE INGRESEN.
  */
 package ejemplos02;
 
