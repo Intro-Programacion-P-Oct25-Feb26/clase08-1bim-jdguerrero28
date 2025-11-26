@@ -41,6 +41,7 @@ public class Ejemplo021 {
                 case "yes":
                 case "y":
                     bandera = false;
+                break;    
             }
 
         } while (bandera); // (bandera==true)
