@@ -19,19 +19,19 @@ public class Ejemplo03 {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
         String cadenaFinal = "";
-        double nota;
+        double notas;
         boolean bandera = true;
         int salida;
         double sumaNotas = 0;
         
         do {
             System.out.println("Ingrese calificaciones");
-            nota = entrada.nextDouble();
-            sumaNotas = sumaNotas + nota;
+            notas = entrada.nextDouble();
+            sumaNotas = sumaNotas + notas;
             cadenaFinal = String.format("%s%.2f\n", cadenaFinal, 
-                    nota);
+                    notas);
             
-            System.out.println("Ingrese (-111) si desea salir del ciclo ");
+            System.out.println("Ingrese (-111) si desea salir del ciclo: ");
             salida = entrada.nextInt();
 
             if (salida == -111) {
