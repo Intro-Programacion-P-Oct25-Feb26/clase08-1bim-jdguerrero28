@@ -31,10 +31,10 @@ public class Ejemplo08 {
 
         do {
             // para manejar el signo asociado 
-            if (denominador % 2 == 0) {
-                signo = "-";
-            } else {
+            if (denominador % 2 != 0) {
                 signo = "+";
+            } else {
+                signo = "-";
             }
 
             cadena = String.format("%s%s%d/%d\n",
